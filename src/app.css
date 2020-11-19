@@ -1,0 +1,330 @@
+body{
+  font-family:"Open Sans",sans-serif;
+}
+/* Header */
+.top-header{
+  padding: 3px 0;
+  background-color: #22282d;
+  color: white;
+  font-size: 10px;
+  overflow: hidden;
+}
+/* ---------languages------------- */
+.language{
+  cursor:pointer;
+  font-size:11px
+}
+.language span {
+  margin-left: 5px;
+}
+.top-header ul{
+  display: flex;
+  list-style: none;
+}
+.top-header ul li{
+  margin-right: 15px;
+  cursor: pointer;
+}
+.top-header ul li:hover{
+  color: #cac9c9;
+}
+/* ----------END------------- */
+/* ---------------header------------ */
+.header{
+  display: flex;
+  font-size: 12px;
+}
+.ant-popover-inner-content{
+  border-top: solid 1px  #cac9c9;
+  margin-top: 4px;
+}
+.hide-menu {
+  border-right: solid 1px #cac9c9;
+}
+.hide-menu Button {
+  margin-top: 10px;
+  text-align: center;
+  overflow: hidden;
+  border: none;
+}
+.sub-menu {
+  margin-top: 10px;
+  cursor: pointer;
+  width: 350px;
+}   
+.sub-menu li{
+  font-size: 15px;
+}
+.header .logo{
+  width: 140px;
+}    
+.header .menu {
+  padding-top:18px;
+} 
+.header .menu ul {
+  display: flex;
+  list-style: none;
+}  
+.header .menu ul li{
+  cursor: pointer;
+  margin-right: 30px;
+}   
+.header .menu ul li .ant-input{
+  width: 180px;
+  height: 25px;
+}   
+.header .login1{
+  width: 500px;
+  padding: 15px 15px;
+  text-align: right;
+}
+.header .login {
+  width: 123px;
+  padding: 15px 15px;
+  text-align: right;
+}
+.content {
+  padding: 10px;
+}
+.content h6{
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.content li{
+  font-size: 11px;
+  margin-bottom: 4px;
+  cursor: pointer;
+}
+.brand ul{
+  display: flex;
+  list-style: none;
+}
+.brand ul li .image{
+  /* height: 40px; */
+  padding: 5px;
+  overflow: hidden;
+  border:solid 1px #cac9c9;
+  border-radius: 10%;
+  margin-right: 15px;
+}
+.brand ul li .image:hover{
+  border:solid 1px #554848;
+}
+.brand ul li .image img {
+  height: 25px;
+}
+/* slide */
+/* .Slide div{
+  width: 100%;
+} */
+.Slide img{
+  width: 100%;
+  height:100%;
+}
+.Slide div{
+  height: 250px;
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 812px) {
+  .Slide div{
+    height: 100px;
+    margin-bottom: 10px;
+  }
+}
+/* Home */
+.Left-content {
+  background-color: black;
+  padding: 20px;
+  margin-top: 10px;
+  height: 260px;
+}
+.Left-content p{
+  color:rgb(170, 151, 151);
+}
+.ant-btn{
+  background-color:rgb(255, 255, 255,0.3) !important ;
+  color: black !important;
+}
+
+.Right-content{
+  margin-top: 10px;
+  height: 260px;
+  overflow: hidden;
+}
+.Right-content .item1 {
+  padding-left: 10px;
+  height: 130px;
+  overflow: hidden;
+}
+.Right-content  img {
+  position: absolute;
+  height: 140px;
+}
+.Right-content .item1 .text1{
+  position: relative;
+  float:right;
+  margin: 10px 30px 20px 0;
+
+}
+.Right-content .item2{
+  padding-left: 10px;
+  height: 130px;
+  overflow: hidden;
+}
+.Right-content .item2 .text2{
+position: relative;
+text-align: center;
+margin-top: 10px;
+}
+.Right-content .item3{
+  padding: 10px 0 0 10px;
+  overflow: hidden;
+}
+.Right-content .item3 .text3 {
+position: relative;
+text-align: center;
+margin-top: 1px;
+color: white;
+}
+.Right-content .item4 {
+  padding: 10px 0 0 10px;
+  overflow: hidden;
+}
+.Right-content .item4 .text4{
+  position: relative;
+  margin: 5px 10px 0 20px;
+  color:white
+}
+
+.mid-content{
+  margin-top: 20px;
+  background-color: #cac9c9;
+  padding: 20px 0;
+}
+.ant-btn-background-ghost {
+  color: rgb(26, 22, 22,0.4) !important;
+  background: transparent !important;
+  border-color: #fff;
+}
+ /* home .icon */
+.icon ul{
+  list-style: none;
+  display: flex;
+}
+.icon ul li{
+  cursor: pointer;
+}
+.icon ul li:hover{
+  color: white;
+}
+
+/* Card */
+.ant-card-bordered .ant-card-cover{
+  margin: 0px 19px !important;
+}
+.ant-card-body {
+  padding:1px 0 !important;
+}
+.Link:hover{
+  text-decoration: underline;
+}
+@media only screen and (min-width: 812px) {
+  .cards img {
+    height: 90px;
+  }
+}
+@media only screen and (max-width: 812px) {
+  .cards img {
+    height: 200px;
+  }
+}
+
+/* Category */
+.category{
+  padding: 0 0 0 5px;
+}
+.category  li{
+  list-style: none;
+  float: left;
+  margin-right: 10px;
+}
+
+ /* Footer */
+.footer{
+  background-color: #2d353c;
+  padding: 20px 0;
+}
+.footer h6{
+  color: #fff;
+  font-size: small; 
+  margin-bottom: 20px;
+}
+.footer p{
+  color: rgba(255,255,255,.6);
+  font-size: smaller;
+}
+.footer ul{
+  list-style: none;
+}
+.footer ul li a{
+  font-size: smaller;
+  color: rgba(255,255,255,.6);
+}
+.footer ul li a:hover{
+  text-decoration: underline;
+}
+.Lastest_product .name{
+  font-size: 14px;
+  color: white;
+}
+.Lastest_product .price {
+  color: rgba(255,255,255,.6);
+  font-size: 10px;
+}
+/* footer-buttom */
+/* Footer Small Screen statement  */
+.footer-buttom-s {
+  padding: 20px 0;
+  background-color: #1d2226 ;
+  color: rgba(255,255,255,.75);
+  font-size: 10px;
+  overflow: hidden;
+}
+ .footer-buttom-s .payment{
+  width: 100%;
+}
+.footer-buttom-s .card{
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.footer-buttom-s img{
+  height: 30px;
+} 
+/*Footer Big screen statement */
+.footer-buttom-b {
+  padding: 20px 0;
+  background-color: #1d2226 ;
+  color: rgba(255,255,255,.75);
+  font-size: 10px;
+  overflow: hidden;
+}
+.footer-buttom-b .payment-method {
+  float: right;
+  height: 50px;
+}
+.footer-buttom-b  ul{
+  list-style: none;
+  display: flex;
+}
+.footer-buttom-b ul li{
+  margin-right: 5px;
+}
+.footer-buttom-b img {
+  height: 30px;
+}
+.footer-buttom-b .copyright {
+  padding: 12px 0 0 0;
+  height: 50px;
+}
+/* --------------------------------- */
